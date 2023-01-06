@@ -17,9 +17,9 @@ body{
 
 .navigation{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
     margin-top:30px;
 }
 
@@ -28,8 +28,10 @@ body{
     display: flex;
     flex-direction: row;
     list-style: none;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
+    padding: 10px;
+    margin-top: 10px;
 }
 .navigation .nav-pages ul,.navigation .nav-pages ul a{
     text-decoration: none;
@@ -42,23 +44,17 @@ body{
     color: rgb(32, 54, 150);
 }
 
-.navigation .nav-icons ul a {
-    padding: 5px;
-    border-radius: 50%;
-    margin: 5px;
-    color: rgb(32, 54, 150);
-    background-color: white;
-}
 
 .logo{
     border-radius: 50%;
-    padding: 13px 10px;
+    padding: 20px 15px;
     background-color: rgb(145, 145, 202);
+    color: white;
 }
 
 .section1{
     display: grid;
-    place-items: center;
+    place-items: left;
 
 }
 .product-container{
@@ -72,7 +68,7 @@ body{
     margin-right: 5rem;
 }
 .product-card{
-    margin: 0 20px 90px 0;
+    margin: 0 20px 40px 0;
     width: 100%;
 }
 
@@ -160,3 +156,34 @@ body{
 
 }
 
+.filter{
+    text-align: left;
+    margin-left: 5rem;
+    margin-top: 10rem;
+    border-bottom: 2px solid rgb(91, 34, 156);
+    max-width: 1.8rem;
+}
+
+footer{
+    background-color: rgb(119, 94, 181);
+    margin-top: 8rem;
+    height: 150px;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+
+
+}
+
+footer .social-media{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+footer a{
+    border-radius: 50%;
+    padding: 8px 10px;
+    background-color: white;
+    color: black;
+}
